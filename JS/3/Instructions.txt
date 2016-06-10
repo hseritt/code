@@ -1,0 +1,69 @@
+===============================================================================
+
+NOTE: You will need to install a 3rd party package (realine-sync) to do this
+lesson (npm install readline-sync)
+
+* Run the example3.js script to see what it does:
+
+Input:
+
+# ./example3.js
+
+OR:
+
+# ./example3.js YourName 47 65 Clear
+
+Output:
+
+Well, hello YourName. It is nice to meet you!
+Don't worry. You're still a lot younger than you think.
+
+The weather is still cool here despite it being the summer.
+
+Sounds nice there.
+At least it's dry there.
+Remember, showers bring May flowers.
+
+===============================================================================
+* Hand copy example3.js into a script called example3-copy.js. Copy
+everything including comments word for word. Make sure it runs as
+example3.js does.
+
+# chmod +x example3-copy.js
+# ./example3-copy.js
+# ./example3-copy.js
+
+
+===============================================================================
+* Fill in the code for example3-comments.js
+
+# cp example3-comments.js example3-code.js
+
+Add the code into example3-code.js and run it until it works as expected.
+
+
+===============================================================================
+* Fix the broken script.
+
+# cp example3-broke.js example3-fixed.js
+
+Fix the example3-fixed.js until it works like example3.js does. The best way to
+learn as much as you can while you fix it is to run the script after each fix
+you try. This way you will get to see what kind of error messages show up for
+each error there is.
+
+===============================================================================
+* Without reading any of the other files, create a new empty script that
+implements these concepts:
+
+- Assign values based on command line parameters.
+- Assign values based on user input from the keyboard.
+- Do multiple if/else if/else structures to show output based on command line parameters and user input.
+
+This one should be called example3-test.js. Make sure all are done correctly the first time checking your work carefully. Then run to find bugs. Fix them one at a time.
+
+
+===============================================================================
+* Clean up
+
+# rm example3-copy.js example3-fixed.js example3-code.js example3-test.js

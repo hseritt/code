@@ -1,0 +1,75 @@
+===============================================================================
+* Run the example4.php script to see what it does:
+
+Input:
+
+# ./example4.php
+
+OR:
+
+# ./example4.php [list | line] # This means we can provide nothing or list or line as the command line arguments.
+
+Output:
+
+Enter a list of types of trees.
+One tree per prompt. Type 'X' to quit.
+==================================================================
+Enter: Oak
+Enter: maple
+Enter: PiNE
+Enter: x
+
+==================================================================
+You entered 3 trees:
+  * OAK
+  * MAPLE
+  * PINE
+
+
+===============================================================================
+* Hand copy example4.php into a script called example4-copy.php. Copy
+everything including comments word for word. Make sure it runs as
+example4.php does.
+
+# chmod +x example4-copy.php
+# ./example4-copy.php
+# ./example4-copy.php
+
+
+===============================================================================
+* Fill in the code for example4-comments.php
+
+# cp example4-comments.php example4-code.php
+
+Add the code into example4-code.php and run it until it works as expected.
+
+
+===============================================================================
+* Fix the broken script.
+
+# cp example4-broke.php example4-fixed.php
+
+Fix the example4-fixed.php until it works like example4.php does. The best way to
+learn as much as you can while you fix it is to run the script after each fix
+you try. This way you will get to see what kind of error messages show up for
+each error there is.
+
+===============================================================================
+* Without reading any of the other files, create a new empty script that
+implements these concepts:
+
+- Create a simple function printing out usage and exit if usage isn't correct.
+- Allow for user to enter formatting options on the command line or set a default option if none is given.
+- Make a list of allowable options.
+- Allow user input for a list of like items.
+- Print out list of like items.
+- Use upper and lower case formatting of strings.
+- Use a for loop and a simple while loop.
+
+This one should be called example4-test.php. Make sure all are done correctly the first time checking your work carefully. Then run to find bugs. Fix them one at a time.
+
+
+===============================================================================
+* Clean up
+
+# rm example4-copy.php example4-fixed.php example4-code.php example4-test.php

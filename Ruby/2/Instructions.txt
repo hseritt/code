@@ -1,0 +1,82 @@
+===============================================================================
+* Run the example2.rb script to see what it does:
+
+Input:
+
+# ./example2.rb
+
+Output:
+
+The number is 5. Type of num1 is Fixnum. Type of five is String.
+The sum of 5 and 3 is 8.
+The concatenation of 5 and 3 is 53.
+Subtracting 3 from 5 is 2.
+The product of 5 and 3 is 15.
+
+The type of fnum1 is Float. The type of fnum2 is Float
+The division of 10.0 by 3.0 is 3.3333333333333335.
+Too many zeros! How is this? 10 divided by 3 is equal to 3.33.
+The type of inum1 is Fixnum. The type of inum2 is Fixnum.
+The modulus of 10 and 3 is 1.
+I have only $10.00 to my name.
+
+5 and 3 are not equal.
+fnum1 (5) divided by 2 is equal to num1 (5).
+num2 (3) is less than num1 (5).
+
+The fact is true.
+Your opinion is false.
+
+Is zero true or false? false.
+Is zero_decimal true or false? false.
+Is 1 true or false? true.
+
+
+===============================================================================
+* Hand copy example2.rb into a script called example2-copy.rb. Copy
+everything including comments word for word. Make sure it runs as
+example2.rb does.
+
+# chmod +x example2-copy.rb
+# ./example2-copy.rb
+# ./example2-copy.rb
+
+
+===============================================================================
+* Fill in the code for example2-comments.rb
+
+# cp example2-comments.rb example2-code.rb
+
+Add the code into example2-code.rb and run it until it works as expected.
+
+
+===============================================================================
+* Fix the broken script.
+
+# cp example2-broke.rb example2-fixed.rb
+
+Fix the example2-fixed.rb until it works like example2.rb does. The best way to
+learn as much as you can while you fix it is to run the script after each fix
+you try. This way you will get to see what kind of error messages show up for
+each error there is.
+
+===============================================================================
+* Without reading any of the other files, create a new empty script that
+implements these concepts:
+
+- Show directive for setting interpreter.
+- Set an integer and string. Print out the type of each variable.
+- Print out difference between math function and concatenation formatting in string print outs.
+- Show addition, subtraction, multiplication, division and modulus concepts with variables.
+- Show casting from float to integer (optional if lang allows).
+- Print out variables that require fixed decimal places.
+- Test for greater than, less than, not equal and equal comparisons with numbers.
+- Test not equal and equal comparisons with true/false values: literal true/false and test typical values like 1 or 0, empty strings, strings, etc.
+
+This one should be called example2-test.rb. Make sure all are done correctly the first time checking your work carefully. Then run to find bugs. Fix them one at a time.
+
+
+===============================================================================
+* Clean up
+
+# rm example2-copy.rb example2-fixed.rb example2-code.rb example2-test.rb

@@ -1,0 +1,72 @@
+===============================================================================
+* Compile and run the example3.c script to see what it does:
+
+gcc -o example3 example3.c
+
+Input:
+
+# ./example3
+
+OR:
+
+# ./example3 YourName 47 65 Clear
+
+Output:
+
+Hi! What is your name? YourName
+How old are you? 47
+What is the temperature where you are? 65
+What are the skies like? Clear? Cloudy? Rainy? Clear
+
+Well, hello YourName. It is nice to meet you.
+Don't worry. You're still younger than you think.
+
+The weather is still cool here despite it being the summer.
+
+Sounds nice there.
+At least it's dry there.
+
+
+===============================================================================
+* Hand copy example3.c into a script called example3-copy.c. Copy
+everything including comments word for word. Make sure it runs as
+example3.c does.
+
+# gcc -o example3-copy example3-copy.c
+# ./example3-copy
+# ./example3-copy
+
+
+===============================================================================
+* Fill in the code for example3-comments.c
+
+# cp example3-comments.c example3-code.c
+
+Add the code into example3-code.c and run it until it works as expected.
+
+
+===============================================================================
+* Fix the broken script.
+
+# cp example3-broke.c example3-fixed.c
+
+Fix the example3-fixed.c until it works like example3.c does. The best way to
+learn as much as you can while you fix it is to run the script after each fix
+you try. This way you will get to see what kind of error messages show up for
+each error there is.
+
+===============================================================================
+* Without reading any of the other files, create a new empty script that
+implements these concepts:
+
+- Assign values based on command line parameters.
+- Assign values based on user input from the keyboard.
+- Do multiple if/else if/else structures to show output based on command line parameters and user input.
+
+This one should be called example3-test.c. Make sure all are done correctly the first time checking your work carefully. Then run to find bugs. Fix them one at a time.
+
+
+===============================================================================
+* Clean up
+
+# rm example3-copy.c example3-fixed.c example3-code.c example3-test.c

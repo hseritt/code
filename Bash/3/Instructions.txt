@@ -1,0 +1,66 @@
+===============================================================================
+* Run the example3.sh script to see what it does:
+
+Input:
+
+# ./example3.sh
+
+OR:
+
+# ./example3.sh YourName 47 65 Clear
+
+Output:
+
+Well, hello YourName. It is nice to meet you.
+Don't worry. You're still younger than you think.
+
+The weather is still cool here despite it being the summer.
+
+Sounds nice there.
+At least it's dry there.
+Remember, showers bring May flowers.
+
+
+===============================================================================
+* Hand copy example3.sh into a script called example3-copy.sh. Copy
+everything including comments word for word. Make sure it runs as
+example3.sh does.
+
+# chmod +x example3-copy.sh
+# ./example3-copy.sh
+# ./example3-copy.sh
+
+
+===============================================================================
+* Fill in the code for example3-comments.sh
+
+# cp example3-comments.sh example3-code.sh
+
+Add the code into example3-code.sh and run it until it works as expected.
+
+
+===============================================================================
+* Fix the broken script.
+
+# cp example3-broke.sh example3-fixed.sh
+
+Fix the example3-fixed.sh until it works like example3.sh does. The best way to
+learn as much as you can while you fix it is to run the script after each fix
+you try. This way you will get to see what kind of error messages show up for
+each error there is.
+
+===============================================================================
+* Without reading any of the other files, create a new empty script that
+implements these concepts:
+
+- Assign values based on command line parameters.
+- Assign values based on user input from the keyboard.
+- Do multiple if/else if/else structures to show output based on command line parameters and user input.
+
+This one should be called example3-test.sh. Make sure all are done correctly the first time checking your work carefully. Then run to find bugs. Fix them one at a time.
+
+
+===============================================================================
+* Clean up
+
+# rm example3-copy.sh example3-fixed.sh example3-code.sh example3-test.sh

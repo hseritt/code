@@ -1,0 +1,66 @@
+===============================================================================
+* Compile and run the Example3.java script to see what it does:
+
+# javac Example3
+
+Input:
+
+# java Example3
+
+OR:
+
+# java Example3 YourName 47 65 Clear
+
+Output:
+
+Well, hello YourName. It is nice to meet you.
+Don't worry. You're still younger than you think.
+
+The weather is still cool here despite it being the summer.
+
+Sounds nice there.
+At least it's dry there.
+
+
+===============================================================================
+* Hand copy Example3.java into a script called Example3Copy.java. Copy
+everything including comments word for word. Make sure it runs as
+Example3.java does.
+
+# javac Example3Copy.java
+# java Example3Copy
+
+
+===============================================================================
+* Fill in the code for Example3Comments.java
+
+# cp Example3Comments.java Example3Code.java
+
+Add the code into Example3Code.java and run it until it works as expected.
+
+
+===============================================================================
+* Fix the broken script.
+
+# cp Example3Broke.java Example3Fixed.java
+
+Fix the Example3Fixed.java until it works like Example3.java does. The best way to
+learn as much as you can while you fix it is to run the script after each fix
+you try. This way you will get to see what kind of error messages show up for
+each error there is.
+
+===============================================================================
+* Without reading any of the other files, create a new empty script that
+implements these concepts:
+
+- Assign values based on command line parameters.
+- Assign values based on user input from the keyboard.
+- Do multiple if/else if/else structures to show output based on command line parameters and user input.
+
+This one should be called Example3Test.java. Make sure all are done correctly the first time checking your work carefully. Then run to find bugs. Fix them one at a time.
+
+
+===============================================================================
+* Clean up
+
+# rm Example3Copy.java Example3Fixed.java Example3Code.java Example3Test.java

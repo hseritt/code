@@ -1,0 +1,82 @@
+===============================================================================
+* Run the example1.rb script to see what it does:
+
+Input:
+
+# ./example1.rb
+
+Output:
+
+This is a line. Note how the next line prints below this one.
+Note how the next 'line' goes to the right. Short line.
+Now we're back to a new line.
+
+Did you see how this line skipped to a new one?
+
+My name is My Name
+My age is 48
+A half a cup is 0.5 of a full cup.
+
+My name is My Name
+My age is 48
+A half a cup is 0.500000 of a full cup.
+
+My name is My Name
+My age is 48
+A half a cup is 0.5
+
+About me and what I think about cups:
+
+    My name is My Name
+    My age is 48
+    A half a cup is 0.500000 of a full cup.
+
+
+
+===============================================================================
+* Hand copy example1.rb into a script called example1-copy.rb. Copy
+everything including comments word for word. Make sure it runs as
+example1.rb does.
+
+# chmod +x example1-copy.rb
+# ./example1-copy.rb
+
+===============================================================================
+* Fix the broken script.
+
+# cp example1-broke.rb example1-fixed.rb
+
+Fix the example1-fixed.rb until it works like example1.rb does. The best way to
+learn as much as you can while you fix it is to run the script after each fix
+you try. This way you will get to see what kind of error messages show up for
+each error there is.
+
+
+===============================================================================
+* Fill in the code for example1-comments.rb
+
+# cp example1-comments.rb example1-code.rb
+
+Add the code into example1-code.rb and run it until it works as expected.
+
+
+===============================================================================
+* Without reading any of the other files, create a new empty script that
+implements these concepts:
+
+- Show directive for setting interpreter.
+- Print a simple string literal with newline.
+- Print a simple string literal that does not have a new line.
+- Print a simple string literal next to the last line.
+- Print another simple string literal with newline.
+- Declare at least 3 variables and use them in a print out that demonstrates the different ways you can format a string literal with a variable.
+- Declare (optional) 3 variables to values (string, integer and decimal) on the same line.
+- Print out a line for each of the variables and use the tab character to do so.
+
+This one should be called example1-test.rb.
+
+
+===============================================================================
+* Clean up
+
+# rm example1-copy.rb example1-fixed.rb example1-code.rb example1-test.rb
