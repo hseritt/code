@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"></meta>
+<title>Car List</title>
+</head>
+<body>
+    <h2>List of Cars Owned by Owner</h2>
+    
+    <div>
+        <dl th:each="car : ${cars}">
+            <dt>
+                
+                Type: 
+                <span th:text="${car.type}">
+                </span><br/>
+                
+                Year: 
+                <span th:text="${car.year}">
+                </span><br/>
+                
+                Year Bought: 
+                <span th:text="${car.yearBought}">
+                </span><br/>
+                
+            </dt>
+        </dl>
+    </div>
+    
+    <div>
+        <form method="POST">
+            <table>
+                <tr>
+                    <td>
+                        Type:
+                    </td>
+                    <td>
+                        <input type="text" name="type" size="50"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Year:
+                    </td>
+                    <td>
+                        <input type="text" name="year" size="4"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Year Bought:
+                    </td>
+                    <td>
+                        <input type="text" name="yearBought" size="4"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit"></input>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>

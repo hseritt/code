@@ -1,11 +1,12 @@
-package com.manning.readinglist;
+package org.prodigius.cars;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReadinglistApplication {
+public class CarsApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(ReadinglistApplication.class, args);
+		SpringApplication.run(CarsApplication.class, args);
 	}
 }

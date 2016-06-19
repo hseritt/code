@@ -1,0 +1,100 @@
+<!--
+Set html and head elements. The title will be Reading List. Set a stylesheet link with th:href="@{/style.css}". Close the head element.
+-->
+<html>
+    <head>
+        <title>Reading List</title>
+        <link type="stylesheet" th:href="@{/style.css}"></link>
+    </head>
+
+
+    <!--
+    Create body element. Create an h2 element with Your Reading List as the text.
+    -->
+    <body>
+        <h2>Your Reading List</h2>
+
+
+        <!--
+        Create a div element. Use th:unless="${#lists.isEmpty(books)}"...
+        -->
+        <div th:unless="${#lists.isEmpty(books)}">
+
+            <!-- Create a dl element. Use th:each="book : ${books}" as an iterator...
+            -->
+            <dl th:each="book : ${books}">
+
+                <!-- Create a dt element and use class="bookHeadLine" for it.-->
+                <dt class="bookHeadLine">
+
+                    <!-- Create two span elements.
+                    These should be for title and author. Use th:text to get book.title and book.author. The Span text should be Title and Author.
+                    -->
+                    <span th:text="${book.title}">Title</span> by
+                    <span th:text="${book.author}">Author</span>
+
+                    <!-- This span should print out (ISBN: $book.isbn) and have ISBN as the the span text.-->
+                    (ISBN: <span th:text="${book.isbn}">ISBN</span>)
+
+                <!-- close the dt element -->
+                </dt>
+
+                <!-- Create a dd element which has a class value of bookDescription -->
+                <dd class="bookDescription">
+
+                    <!-- Create a span that will show book.description as value and Description as text.-->
+                    <span th:text="${book.description}">
+                        Description
+                    </span>
+
+                    <!-- Use span with th:if to determine if description is set or not. "book.description eq null" -->
+                    <span th:if="${book.description eq null}">
+                        <!-- "Output No description available", close span -->
+                        No description available
+                    </span>
+                <!-- Close dd element -->
+                </dd>
+            <!-- close dl element -->
+            </dl>
+        <!-- close div -->
+        </div>
+
+        <!-- Create a div element. Use th:if to determine if list is empty of books -->
+        <div th:if="${#lists.isEmpty(books)}">
+            <!-- if it is, print out: "You have no books in your reading list" encased in <p> elements -->
+            <p>You have no books in your reading list</p>
+
+        <!-- Close div element -->
+        </div>
+
+        <!-- Create a hr element -->
+        <hr/>
+
+        <!-- Create a h3 element with Add a book as text. -->
+        <h3>Add a book</h3>
+        <!-- Start a form with method of post. -->
+            <form method="POST">
+            <!-- For each of these: title, author, isbn and description, create an input field. Each should have a label. Size for title and author should be 50, for isbn it should be 15. Description will use a textarea for input. It will be 80 columns by 5 rows.
+            -->
+            <label for="title">Title</label>
+                <input type="text" name="title" size="50"></input><br/>
+            <label for="author">Author</label>
+                <input type="text" name="author" size="50"></input><br/>
+            <label for="isbn">ISBN</label>
+                <input type="text" name="isbn" size="15"></input><br/>
+            <label for="description">Description</label><br/>
+                <textarea name="description" cols="80" rows="5">
+                </textarea><br/>
+
+
+            <!-- Create a submit button for the form -->
+            <input type="submit"></input><br/>
+
+        <!-- Close the form element -->
+        </form>
+
+    <!-- Close the body element -->
+    </body>
+
+<!-- Close the html element. -->
+</html>

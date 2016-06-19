@@ -1,0 +1,33 @@
+/*
+Create a body section. Background color should be #cccccc. Fonts should be arial, helvetica and sans-serif.
+*/
+
+body {
+    background-color: #cccccc;
+    font-family: arial,helvetica,sans-serif;
+}
+
+/*
+Create a section called .bookHeadline. Font size should be 12pt. Font should also be bold.
+*/
+
+.bookHeadline {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+/*
+Create a section called .bookDescription. Font size should be 10pt.
+*/
+
+.bookDescription {
+    font-size: 10pt;
+}
+
+/*
+Create a section for labels. Font should be bold.
+*/
+
+label {
+    font-weight: bold;
+}

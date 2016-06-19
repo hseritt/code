@@ -1,0 +1,15 @@
+// Add the package name
+
+// Import Entity, GeneratedValue, GenerationType and Id
+
+/* Create a class called book. Use an annotation, to show that this
+class will be a table in the database.
+*/
+
+    // Create a Long variable called id. Put an annotation to signify this
+    // will be the "table" primary key. Set the annotation to denote that
+    // Id will be automatically generated.
+
+    // Create the following Class vars: reader, isbn, title, author, description.
+
+    // Create getters and setters for each variable

@@ -1,0 +1,9 @@
+// Set the package
+
+// Import List
+
+// Import JpaRepository from spring's data.jpa.repository package.
+
+// Create a public interface called ReadingListRepository that is an instantiation of JpaRepository.
+
+    // Set findByReader as a List<Book>

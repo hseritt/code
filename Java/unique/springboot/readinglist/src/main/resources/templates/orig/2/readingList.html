@@ -1,0 +1,69 @@
+<!--
+Set html and head elements. The title will be Reading List. Set a stylesheet link to point to 
+style.css. Close the head element.
+-->
+
+
+
+    <!--
+    Create body element. Create an h2 element with Your Reading List as the text.
+    -->
+
+
+
+        <!--
+        Create a div element. This div should only print if the books list is not empty.
+        -->
+
+            <!-- Create a dl element. This should iterate book over books
+            -->
+
+                <!-- Create a dt element and use class="bookHeadLine" for it.-->
+
+                    <!-- Create two span elements.
+                    These should be for title and author. Use th:text to get book.title and book.author. The Span text should be Title and Author.
+                    -->
+
+
+                    <!-- This span should print out (ISBN: $book.isbn) and have ISBN as the the span text.-->
+
+                <!-- close the dt element -->
+
+                <!-- Create a dd element which has a class value of bookDescription -->
+
+                    <!-- Create a span that will show book.description as value and 
+                    Description as text.-->
+
+
+                    <!-- Use span with th:if to determine if description is set or not. "book.description eq null" -->
+
+                        <!-- "Output No description available", close span -->
+
+                <!-- Close dd element -->
+            <!-- close dl element -->
+        <!-- close div -->
+
+        <!-- Create a div element. Use th:if to determine if books list is empty or not -->
+            <!-- if it is, print out: "You have no books in your reading list" encased in <p> 
+            elements -->
+
+        <!-- Close div element -->
+
+        <!-- Create a hr element -->
+
+        <!-- Create a h3 element with Add a book as text. -->
+        <!-- Start a form with method of post. -->
+            <!-- For each of these: title, author, isbn and description, create an input field. 
+            Each should have a label. Size for title and author should be 50, for isbn it 
+            should be 15. Description will use a textarea for input. It will be 80 columns by 
+            5 rows.
+            -->
+
+
+            <!-- Create a submit button for the form -->
+
+        <!-- Close the form element -->
+
+    <!-- Close the body element -->
+
+<!-- Close the html element. -->

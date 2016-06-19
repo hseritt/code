@@ -1,0 +1,12 @@
+// Enter package
+
+// Import SpringApplication from spring's boot package
+
+// Import SpringBootApplication from spring's boot.autoconfigure package.
+
+// Create a public SpringBootApplication class called ReadingListApplication
+
+
+    // Create a main methhod ...
+
+        // Set the SpringApplication to run with this class and args.
