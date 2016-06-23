@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="readinglist" external.linked.project.path="/media/hseritt/Disk1/Devel/examples/hseritt-code/Java/unique/springboot/readinglist" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file:///media/hseritt/Disk1/Devel/examples/hseritt-code/Java/unique/springboot/readinglist">
+      <excludeFolder url="file:///media/hseritt/Disk1/Devel/examples/hseritt-code/Java/unique/springboot/readinglist/.gradle" />
+      <excludeFolder url="file:///media/hseritt/Disk1/Devel/examples/hseritt-code/Java/unique/springboot/readinglist/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

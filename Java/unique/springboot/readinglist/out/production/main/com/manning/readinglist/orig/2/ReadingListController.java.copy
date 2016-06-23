@@ -1,0 +1,41 @@
+// Create the package name.
+
+// Import Autowired from Spring's beans.factory.__ package
+
+// Import Controller from the __ package.
+
+// Import Model from the __ package.
+
+
+// Import PathVariable, RequestMapping, RequestMethod from spring's
+// web.bind.annotation package.
+
+// Import a Java List.
+
+
+// Create a public controller class called ReadingListController. Set the url for "/"
+    // Declare a private var called readingListRepository which is of the
+    // ReadingListRepository type.
+
+    // Create a public method called ReadingListController. Its parameter will
+    // be ReadingListRepository readingListRepository. This method should have 'Autowired' set for annotation.
+
+
+    // Create a method called readersBooks to handle GET requests at /{reader}
+    // The parameters should take in the value for /{reader} and for the controller model.
+
+
+        // Use a variable called readingList to hold the values for the reading list based on the current user.
+
+        // If readList isnt null or empty, add the readingList to the model as "books".
+
+        // Return the template.
+
+
+    // Create a method called addToReadingList to handle POST requests at /{reader}. The method should accept the reader from /{reader} and the Book model.
+
+        // Set the reader as the book's reader.
+
+        // Save the book to the database.
+
+        // Return a redirect.
